@@ -5,7 +5,7 @@
 mvn install:install-file -DgroupId=org.pentaho -DartifactId=pentaho-aggdesigner-algorithm -Dversion=5.1.5-jhyde -Dpackaging=jar -Dfile={your path}/pentaho-aggdesigner-algorithm-5.1.5-jhyde-jhyde.jar
 ```
 
-2、缺少依赖：**eigenbase:eigenbase-properties:jar:1.1.4**，从[https://github.com/julianhyde/eigenbase-properties](https://github.com/julianhyde/eigenbase-properties)下载源码到本地，该项目版本最新不是1.1.4了，需要修改
+2. 缺少依赖：**eigenbase:eigenbase-properties:jar:1.1.4**，从[https://github.com/julianhyde/eigenbase-properties](https://github.com/julianhyde/eigenbase-properties)下载源码到本地，该项目版本最新不是1.1.4了，需要修改
 pom中的版本号为1.1.4并增加对应的groupId，然后去掉其<parent>标签：
 ```
   <groupId>eigenbase</groupId>
