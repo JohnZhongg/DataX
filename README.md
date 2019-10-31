@@ -1,3 +1,4 @@
+# github网络太慢..参考码云：[https://gitee.com/honphan/DataX](https://gitee.com/honphan/DataX)
 # 原README:[https://github.com/alibaba/DataX](https://github.com/alibaba/DataX)
 # 编译所需步骤
 1. 缺少依赖：**org.pentaho.pentaho-aggdesigner-algorithm:jar:5.1.5-jhyde**，从[https://public.nexus.pentaho.org/#browse/search=keyword%3Dpentaho-aggdesigner-algorithm:dfbef09efe1644eaf46667ad068c6bc7:0ab80a743921e426879e5d032aabde8f](https://public.nexus.pentaho.org/#browse/search=keyword%3Dpentaho-aggdesigner-algorithm:dfbef09efe1644eaf46667ad068c6bc7:0ab80a743921e426879e5d032aabde8f)下载jar包，使用命令安装jar包到本地maven库：
